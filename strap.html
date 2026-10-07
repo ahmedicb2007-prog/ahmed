@@ -1,0 +1,294 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NUML REGISTERATION</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="strap.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center text-primary">
+            NUML
+        </h1>
+
+        <p class="text-center">
+            Student Registration Form
+        </p>
+    </div>
+
+
+   
+    <div class="container mt-4">
+
+        <div class="row">
+
+          
+            <div class="col-lg-6 col-md-12">
+
+                <h2>Registration Form</h2>
+
+                <form>
+
+                    
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter your full name">
+                    </div>
+
+
+                   
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            placeholder="Enter your email">
+                    </div>
+
+
+                    
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            class="form-control"
+                            placeholder="Enter your password">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">
+                            City
+                        </label>
+
+                        <select class="form-control">
+                            <option>Select City</option>
+                            <option>Islamabad</option>
+                            <option>Rawalpindi</option>
+                            <option>Lahore</option>
+                            <option>Karachi</option>
+                        </select>
+                    </div>
+
+
+                   
+                    <label class="form-label">
+                        Select Skills
+                    </label>
+
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="html">
+
+                        <label class="form-check-label" for="html">
+                            HTML
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="css">
+
+                        <label class="form-check-label" for="css">
+                            CSS
+                        </label>
+                    </div>
+
+
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="bootstrap"
+                            disabled>
+
+                        <label class="form-check-label" for="bootstrap">
+                            Bootstrap
+                        </label>
+                    </div>
+
+
+                    
+                    <button
+                        type="submit"
+                        class="btn btn-primary mt-3">
+                        Register
+                    </button>
+
+                </form>
+
+            </div>
+
+
+           
+            <div class="col-lg-6 col-md-12 text-center right-panel">
+
+                <img
+                    src="img.jfif"
+                    alt="Institute Logo"
+                    class="registration-image">
+
+                <h2>Welcome to ABC Institute</h2>
+
+                <p>
+                    We provide professional training in web development,
+                    programming and modern technologies.
+                </p>
+
+
+               
+                <ul class="nav nav-pills justify-content-center">
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            data-bs-toggle="pill"
+                            href="#overview">
+                            Overview
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            data-bs-toggle="pill"
+                            href="#courses">
+                            Courses
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            data-bs-toggle="pill"
+                            href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+
+              
+                <div class="tab-content mt-4">
+
+                   
+                    <div
+                        class="tab-pane fade show active"
+                        id="overview">
+
+                        <h3>Overview</h3>
+
+                        <p>
+                            Join our institute to learn practical skills
+                            from experienced instructors.
+                        </p>
+
+                        <button class="btn btn-success">
+                            Learn More
+                        </button>
+
+                    </div>
+
+
+                    
+                    <div
+                        class="tab-pane fade"
+                        id="courses">
+
+                        <h3>Available Courses</h3>
+
+                        <table class="table table-bordered table-striped">
+
+                            <thead class="table-primary">
+
+                                <tr>
+                                    <th>Course</th>
+                                    <th>Duration</th>
+                                    <th>Fee</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>HTML & CSS</td>
+                                    <td>1 Month</td>
+                                    <td>Rs. 5,000</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Bootstrap</td>
+                                    <td>1 Month</td>
+                                    <td>Rs. 6,000</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Web Development</td>
+                                    <td>3 Months</td>
+                                    <td>Rs. 15,000</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+
+                
+                    <div
+                        class="tab-pane fade"
+                        id="contact">
+
+                        <h3>Contact</h3>
+
+                        <p>
+                            Email: info@abcinstitute.com
+                        </p>
+
+                        <p>
+                            Phone: +92 300 1234567
+                        </p>
+
+                        <p>
+                            Islamabad, Pakistan
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
