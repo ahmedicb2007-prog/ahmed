@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Game</title>
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Ahmed RACER</h1>
+        <p>Ready, Set, Race!</p>
+    </header>
+
+    <input type="checkbox" id="start-game" aria-label="Start or stop the race animation">
+
+    <main class="game">
+        <section class="dashboard" aria-label="Race scoreboard">
+            <div class="stat">
+                <span>SCORE</span>
+                <strong>0000</strong>
+            </div>
+            <div class="stat">
+                <span>SPEED</span>
+                <strong>120 <small>KM/H</small></strong>
+            </div>
+            <div class="stat">
+                <span>LEVEL</span>
+                <strong>01</strong>
+            </div>
+        </section>
+
+        <div class="road" role="region" aria-label="Racing track with moving enemy cars">
+            <div class="lane lane-one"></div>
+            <div class="lane lane-two"></div>
+
+            <div class="car enemy enemy-one">
+                <div class="window front-window"></div>
+                <div class="window back-window"></div>
+            </div>
+
+            <div class="car enemy enemy-two">
+                <div class="window front-window"></div>
+                <div class="window back-window"></div>
+            </div>
+
+            <div class="car enemy enemy-three">
+                <div class="window front-window"></div>
+                <div class="window back-window"></div>
+            </div>
+
+            <div class="car player">
+                <div class="window front-window"></div>
+                <div class="window back-window"></div>
+                <div class="stripe"></div>
+            </div>
+        </div>
+
+        <section class="controls">
+            <p>Watch the traffic and road markings move.</p>
+            <label for="start-game" class="start-btn">
+                <span class="start-label">START RACE</span>
+                <span class="stop-label">STOP RACE</span>
+            </label>
+            <p class="hint">CSS-only demo: click Start or Stop to control the animation.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mini Car Racing Game | HTML5 & CSS3</p>
+    </footer>
+</body>
+</html>
